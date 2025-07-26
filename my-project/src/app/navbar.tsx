@@ -12,12 +12,12 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image 
+          <Image
             className="h-8 w-8 border-2 border-white rounded-full"
-            src="/images/LOG.png" 
-            alt="Flowbite Logo" 
-            width={32} height={32} 
-        />
+            src="/images/LOG.png"
+            alt="Flowbite Logo"
+            width={32} height={32}
+          />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             OSG
           </span>
@@ -27,10 +27,11 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            
-            className="text-white bg-gray-900 hover:bg-green-700 focus:ring-4 focus:outline-none 
-                       focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center 
-                       dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+
+            className="mt-6 px-6 py-2 text-sm text-white bg-green-600 hover:bg-green-700 
+              focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-lg font-semibold 
+              transition duration-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+              "
           >
             Get Quote
           </button>
@@ -65,9 +66,8 @@ const Navbar = () => {
 
         {/* Menu items */}
         <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-            isOpen ? 'block' : 'hidden'
-          }`}
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? 'block' : 'hidden'
+            }`}
           id="navbar-cta"
         >
           <ul
