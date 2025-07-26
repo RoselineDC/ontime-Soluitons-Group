@@ -5,7 +5,11 @@ import Image from 'next/image';
 
 const Contact = () => {
     return (
+        <>
+         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center">Contact Us
+      </h2>
         <section className="py-24 bg-white dark:bg-gray-900" id='contact'>
+           
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-16">
 
                 {/* Contact Layout */}
@@ -116,6 +120,7 @@ const Contact = () => {
 
             </div>
         </section>
+        </>
     );
 };
 
