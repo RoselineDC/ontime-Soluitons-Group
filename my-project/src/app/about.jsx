@@ -32,7 +32,7 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center p-4 w-full">
+    <div className="flex flex-col md:flex-row justify-between items-center p-4 w-full" id='about'>
       {/* Carousel - Left Side */}
       <div className="relative w-full md:w-1/2 overflow-hidden rounded-lg">
         <div className="relative h-56 md:h-96">

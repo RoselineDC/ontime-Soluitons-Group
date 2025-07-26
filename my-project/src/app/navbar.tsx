@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="#about"
                 className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
                            md:hover:bg-transparent md:hover:text-green-700 md:dark:hover:text-green-500 
                            dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
@@ -97,7 +97,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/servies"
+                href="#servies"
                 className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
                            md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 
                            dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
@@ -108,7 +108,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="contact"
+                href="#contact"
                 className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
                            md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 
                            dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
